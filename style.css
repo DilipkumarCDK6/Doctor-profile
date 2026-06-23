@@ -293,3 +293,21 @@ body {
         width: 100%;
     }
 }
+
+.brand-logo {
+    width: 90px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.image-banner {
+    border-radius: 24px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+}
+
+.image-banner img {
+    width: 100%;
+    display: block;
+}

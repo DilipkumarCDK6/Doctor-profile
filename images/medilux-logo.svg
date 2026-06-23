@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="280" height="80">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#553c9a"/>
+      <stop offset="100%" stop-color="#7c5ce9"/>
+    </linearGradient>
+  </defs>
+  <rect width="280" height="80" rx="20" fill="#fff"/>
+  <path d="M38 40c0-6.63 5.37-12 12-12h8a12 12 0 1 1 0 24h-8c-6.63 0-12-5.37-12-12Zm12 0h8" fill="url(#g)"/>
+  <path d="M72 60h-8l4-12 4 12Zm-8-24h8l-4 12-4-12Z" fill="#4b3a8d"/>
+  <text x="110" y="45" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Medilux</text>
+  <text x="110" y="64" font-family="Inter, Arial, sans-serif" font-size="16" fill="#6b7280">Healthcare</text>
+</svg>
