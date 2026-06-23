@@ -14,9 +14,11 @@ body {
 }
 
 .page-header {
-    padding: 24px 20px;
+    padding: 48px 20px;
     background: linear-gradient(135deg, #4b3a8d 0%, #7151c7 100%);
     color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 .brand {
@@ -295,9 +297,23 @@ body {
 }
 
 .brand-logo {
-    width: 90px;
+    width: 140px;
     height: auto;
     margin-right: 16px;
+    display: block;
+}
+
+/* Use logo as a large faint cover in the header */
+.page-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('images/medilux-logo.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 40%;
+    opacity: 0.06;
+    pointer-events: none;
 }
 
 .image-banner {
